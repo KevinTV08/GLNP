@@ -2,16 +2,15 @@
 
 ![screenshot](img/screenshot.png)
 
-An tourism website for madeup national park made using HTML5, Flexbox, CSS3, Sass/SCSS preprocessor, and JavaScript.
-
+An tourism website for madeup national park
 ## Built With
 
 - HTML5
 - Flexbox
 - CSS3
-- Sass/SCSS
+- Sass/SCSS preprocessor
 - JavaScript
 
 ## Acknowledgement
 
-The card feature design and other components of this projects was inspired by Jonas Schmedtmann.
+The card feature design and some of the other components of this projects was inspired by Jonas Schmedtmann.
