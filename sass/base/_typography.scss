@@ -1,0 +1,65 @@
+body {
+  background: #fff;
+  line-height: 1.7;
+  color: $color-primary;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+
+    @media only screen and (max-width: 40rem) {
+      font-size: 3rem;
+      letter-spacing: 1rem;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  color: $color-black;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba($primary-color-light, 0.8),
+    rgba($primary-color-dark, 0.2)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+
+  @media only screen and (max-width: 39rem) {
+    & {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.heading-secondary:hover {
+  transform: translateY(0) scale(1.1);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.paragraph:not(:last-child) {
+  margin-bottom: 2rem;
+}

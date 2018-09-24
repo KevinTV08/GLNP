@@ -1,0 +1,29 @@
+.section {
+  &-sites {
+    background-color: $color-grey-light-1;
+    @include sectionDetails;
+  }
+
+  &-about {
+    background-color: $color-grey-light-1;
+    @include sectionDetails;
+  }
+
+  &-info {
+    @include sectionDetails;
+  }
+
+  &-trip {
+    background-color: $color-grey-light-1;
+    @include sectionDetails;
+  }
+
+  &-testimonials {
+    @include sectionDetails;
+  }
+
+  &-contact {
+    background-color: $color-grey-light-1;
+    @include sectionDetails;
+  }
+}

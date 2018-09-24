@@ -1,0 +1,14 @@
+{
+  "name": "glnp",
+  "version": "1.0.0",
+  "description": "Landing page for Great Leaf National Park",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Kevin Tran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

@@ -1,0 +1,97 @@
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 475px;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -10px;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba($color-black, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: $color-black;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 160.5px; /* originally 237.5px */
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 0 15px rgba($color-black, 0.1);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: $color-grey-light-3;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 15px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: $color-grey-light-4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: $color-grey-dark-2;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.mySlides {
+  display: none;
+}
+
+.slide-container {
+  margin: 3.125rem 0 2.5rem 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

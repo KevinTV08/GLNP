@@ -1,0 +1,42 @@
+.about-container {
+  padding: $default-font-size;
+}
+
+@media only screen and (min-width: 57.1875rem) {
+  .about-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .about__col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 1%;
+  }
+  .paragraph {
+    font-size: $default-font-size;
+  }
+  .paragraph:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 57.125rem) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 1%;
+  }
+  .paragraph {
+    font-size: $default-font-size;
+  }
+  .paragraph:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,22 @@
+.product-overview {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($primary-color-light, 0.8),
+      rgba($primary-color-dark, 0.2)
+    ),
+    url('../img/yosemite-md.jpg');
+  background-position: left 10% bottom 28%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90.1vh;
+  position: relative;
+}
+
+.header__text-box {
+  background: none !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

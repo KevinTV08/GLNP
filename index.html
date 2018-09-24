@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Grand Leaf National Park</title>
+</head>
+
+<body>
+
+    <nav class="main-nav">
+
+        <div class="toggle-container">
+            <h1>
+                <a href="#" id="logo">
+                    <img src="img/leaf.png">
+                </a>
+            </h1>
+            <button class="toggle-button" onclick="toggleNav()">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+        </div>
+        <a href="#" id="logo-main">
+            <img src="img/leaf.png">
+        </a>
+        <ul class="main-nav__items">
+            <li class="main-nav__item">
+                <a href="#home">Home</a>
+            </li>
+
+            <li class="main-nav__item">
+                <a href="#about">About Us</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#learn">Info
+                </a>
+                <ul class="submenu">
+                    <li class="submenu__item">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="#">History & Culture</a>
+                    </li>
+                    <li class="submenu__item">
+                        <a href="#">Nature</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="main-nav__item ">
+                <a href="#rates">Trip Rates</a>
+            </li>
+            <li class="main-nav__item ">
+                <a href="#experiences">Experiences</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="#home">Home</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#about">About Us</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="dropdown-btn" href="#learn" onclick="toggleMobileNav()">Info <span class="arrow">&#x25BC;
+                    </span></a>
+                <ul class="dropdown-items">
+                    <li class="dropdown-item">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">History & Culture</a>
+                    </li>
+                    <li class="dropdown-item">
+                        <a href="#">Nature</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#rates">Trip Rates</a>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#experiences">Experiences</a>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="product-overview" id="home">
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">nature</span>
+                <span class="heading-primary--sub">is calling you</span>
+            </h1>
+            <a href="#" class="btn">Explore more</a>
+        </div>
+
+    </section>
+
+
+    <section class="section-about" id="about">
+        <div class="center-text margin-bottom-bg">
+            <h2 class="heading-secondary">
+                Explore the Popular Sites
+            </h2>
+        </div>
+
+        <div class="about-container">
+            <div class="about__col">
+                <h3 class=" margin-bottom-sm">Enjoy the Serene Scenery</h3>
+                <p class="paragraph">
+                    Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Duis condimentum augue id magna
+                    semper rutrum. Ut tempus
+                    purus at lorem. Fusce consectetuer risus a nunc. Donec iaculis gravida nulla. Phasellus et lorem id
+                    felis
+                    nonummy placerat. Sed ac dolor sit amet purus malesuada congue. Cum sociis natoque penatibus et
+                    magnis
+                    dis parturient montes, nascetur ridiculus mus. Maecenas libero.
+                </p>
+
+                <p class="paragraph">
+                    Nunc auctor. Pellentesque sapien. Duis viverra diam non justo. Cras pede libero, dapibus nec,
+                    pretium sit amet, tempor quis.
+                    Pellentesque arcu. Nunc auctor. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                    corporis
+                    suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Curabitur vitae diam non enim
+                    vestibulum
+                    interdum.
+                </p>
+
+                <div class="margin-top-md margin-bottom-sm">
+                    <a href="#" class="btn-text">Explore more &rarr;</a>
+                </div>
+            </div>
+            <div class="about__col">
+                <div class="composition">
+
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="img/slide-1.jpg" style="width:100%" height="475px">
+                            <div class="text"></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="img/slide-2.jpg" style="width:100%" height="475px">
+                            <div class="text"></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="img/slide-3.jpg" style="width:100%" height="475px">
+                            <div class="text"></div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext"></div>
+                            <img src="img/slide-4.jpg" style="width:100%" height="475px">
+                            <div class="text"></div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <div style="text-align:center" class="slide-container">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-info" id="learn">
+        <div class="center-text margin-bottom-bg">
+            <h2 class="heading-secondary">
+                Prepare your Visit
+            </h2>
+        </div>
+        <div class="info-container">
+            <div class="info__col info__box">
+                <div class="picture-container">
+                    <img src="img/ranger.jpg" style="width:100%" height="auto">
+                </div>
+            </div>
+            <div class="info__col info__paragraph">
+                <h3 class="margin-bottom-sm">Basic Information</h3>
+                <p class="paragraph">
+                    Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Duis condimentum augue id magna
+                    semper rutrum. Ut tempus
+                    purus at lorem. Fusce consectetuer risus a nunc. Donec iaculis gravida nulla. Phasellus et lorem id
+                    felis
+                    nonummy placerat. Sed ac dolor sit amet purus malesuada congue. Cum sociis natoque penatibus et
+                    magnis
+                    dis parturient montes, nascetur ridiculus mus. Maecenas libero.
+                </p>
+
+
+                <div class="margin-top-md margin-bottom-sm">
+                    <a href="#" class="btn-text">Read more &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-container">
+            <div class="info__col info__box">
+                <div class="picture-container">
+                    <img src="img/to-do.jpg" style="width:100%" height="auto">
+                </div>
+            </div>
+            <div class="info__col info__paragraph">
+                <h3 class="margin-bottom-sm">Things To Do</h3>
+                <p class="paragraph">
+                    Nunc auctor. Pellentesque sapien. Duis viverra diam non justo. Cras pede libero, dapibus nec,
+                    pretium sit amet, tempor quis.
+                    Pellentesque arcu. Nunc auctor. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                    corporis
+                    suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Curabitur vitae diam non enim
+                    vestibulum
+                    interdum.
+                </p>
+
+                <div class="margin-top-md margin-bottom-sm">
+                    <a href="#" class="btn-text">Read more &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="info__col info__box">
+                <div class="picture-container">
+                    <img src="img/seasons.jpg" style="width:100%" height="auto">
+                </div>
+            </div>
+            <div class="info__col info__paragraph">
+                <h3 class=" margin-bottom-sm">Hours & Seasons</h3>
+                <p class="paragraph">
+                    Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Duis condimentum augue id magna
+                    semper rutrum. Ut tempus
+                    purus at lorem. Fusce consectetuer risus a nunc. Donec iaculis gravida nulla. Phasellus et lorem id
+                    felis
+                    nonummy placerat. Sed ac dolor sit amet purus malesuada congue. Cum sociis natoque penatibus et
+                    magnis
+                    dis parturient montes, nascetur ridiculus mus. Maecenas libero.
+                </p>
+
+
+                <div class="margin-top-md margin-bottom-sm">
+                    <a href="#" class="btn-text">Read more &rarr;</a>
+                </div>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="info__col info__box">
+                <div class="picture-container">
+                    <img src="img/safety.jpg" style="width:100%" height="auto">
+                </div>
+            </div>
+            <div class="info__col info__paragraph">
+                <h3 class="margin-bottom-sm">Safety</h3>
+                <p class="paragraph">
+                    Nunc auctor. Pellentesque sapien. Duis viverra diam non justo. Cras pede libero, dapibus nec,
+                    pretium sit amet, tempor quis.
+                    Pellentesque arcu. Nunc auctor. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                    corporis
+                    suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Curabitur vitae diam non enim
+                    vestibulum
+                    interdum.
+                </p>
+
+
+                <div class="margin-top-md margin-bottom-sm">
+                    <a href="#" class="btn-text">Read more &rarr;</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="section-trip" id="rates">
+        <div class="center-text margin-bottom-bg">
+            <h2 class="heading-secondary">
+                Adventure Travel Trip Pricing
+            </h2>
+        </div>
+
+        <div class="card-container">
+            <div class="cards">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--1">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--1">Lake Adventure</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Day(s): 1</li>
+                                <li>Max. Capacity: 10 people per party</li>
+                                <li>Instructor(s): provided</li>
+                                <li>Accommodation: provided</li>
+                                <li>Food: provided</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back-1">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Most Recommmended</p>
+                                <p class="card__price-value">$4,250</p>
+                            </div>
+                            <a href="#" class="btn margin-bottom-sm">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--2">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--2">Rocky Adventure</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Day(s): 4-5</li>
+                                <li>Max. Capacity: 20 people per party</li>
+                                <li>Instructor(s): provided</li>
+                                <li>Accommodation: tents provided</li>
+                                <li>Food: provided</li>
+                                <li>Equipment: provided </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="card__side card__side--back card__side--back-2">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Recommmended</p>
+                                <p class="card__price-value">$8,200</p>
+                            </div>
+                            <a href="#" class="btn margin-bottom-sm">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--3">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--3">Snow Adventure</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Day(s): 4-5</li>
+                                <li>Max. Capacity: 30 people per party</li>
+                                <li>Instructor(s): provided</li>
+                                <li>Accommodation: cabin provided</li>
+                                <li>Food: provided </li>
+                                <li>Equipment: provided </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="card__side card__side--back card__side--back-3">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Recommmended</p>
+                                <p class="card__price-value">$10,250</p>
+                            </div>
+                            <a href="#" class="btn margin-bottom-sm">Book now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-testimonials">
+
+        <div class="center-text margin-bottom-bg">
+            <h2 class="heading-secondary">
+                Share Your Experience
+            </h2>
+        </div>
+
+
+        <div class="testimonial-card" id="experiences">
+            <div class="row-div">
+                <div class="photo-1" style="background-image: url('img/test-2.jpg')"></div>
+                <ul class="details">
+                    <li class="visitor">Jane Smith</a></li>
+                    <li class="date">August 18, 2018</li>
+                </ul>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim
+                    dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="tm">
+                    <a href="#" class="btn-text">Read More</a>
+                </p>
+            </div>
+        </div>
+        <div class="testimonial-card alt">
+            <div class="row-div">
+                <div class="photo-2" style="background-image: url('img/test-1.jpg')"></div>
+                <ul class="details">
+                    <li class="visitor">John Doe</a></li>
+                    <li class="date">July 15, 2018</li>
+
+                </ul>
+            </div>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim
+                    dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="tm">
+                    <a href="#" class="btn-text">Read More</a>
+                </p>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="row-div">
+                <div class="photo-2" style="background-image: url('img/test-3.jpg')"></div>
+                <ul class="details">
+                    <li class="visitor">Mike Chen</a></li>
+                    <li class="date">July 10, 2018</li>
+                </ul>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim
+                    dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="tm">
+                    <a href="#" class="btn-text">Read More</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+        <div class="center-text margin-bottom-bg">
+            <h2 class="heading-secondary">
+                Contact Us
+            </h2>
+        </div>
+
+        <div class="wrapper">
+
+
+            <div class="form">
+
+                <div class="input-form">
+                    <div class="input">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="inner-msg">
+                    <div class="msg">
+                        <textarea placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <div class="btn-message">
+                    Send Message
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer>
+        <div class="footer__contact-wrapper col-1">
+            <div class="footer__inner">
+                <p class="footer__inner-heading">
+                    Call
+                </p>
+                <p class="footer__inner-sub">
+                    777.777.7777
+                </p>
+            </div>
+            <div class="footer__inner">
+                <p class="footer__inner-heading">
+                    Social Media
+                </p>
+                <br>
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__contact-wrapper col-2">
+            <div class="footer__inner">
+                <p class="footer__inner-heading">
+                    Email
+                </p>
+                <p>
+                    info@GLNPark.com
+                </p>
+            </div>
+            <div class="footer__inner">
+                <p class="footer__inner-heading">
+                    Help
+                </p>
+                <p>
+                    help@GLNPark.com
+                </p>
+            </div>
+        </div>
+        <div class="footer__logo-wrapper">
+            <img src="img/leaf.png" alt="logo-footer">
+            <p>
+                Copyright &copy; 2018 Grand Leaf National Park.
+            </p>
+            <p>Developed by Kevin Tran
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/main.js "></script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+
+
+    </script>
+
+</body>
+
+
+
+
+</html>
