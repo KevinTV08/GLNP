@@ -1,8 +1,9 @@
 .testimonial-card {
+  width: 75%;
   display: flex;
   flex-direction: column;
   margin: 3rem auto;
-  box-shadow: 0 3px 7px -1px rgba($color-black, 0.1);
+  box-shadow: 0 3px 7px -1px rgba($color-black, 0.2);
   margin-bottom: 1.6%;
   background-color: rgba(255, 255, 255, 0.8);
   line-height: 1.4;
@@ -18,11 +19,14 @@
   }
 
   .photo-1 {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    border-radius: none;
     position: absolute;
-    right: 0;
-    left: 0;
+    left: 35%;
     background-size: 80%;
-    background-color: $color-grey-light-2;
     background-repeat: no-repeat;
     background-position: center top;
     transition: transform 0.2s;
@@ -30,11 +34,29 @@
   }
 
   .photo-2 {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    border-radius: none;
     position: absolute;
-    right: 0;
-    left: 0;
+    left: 35%;
     background-size: 80%;
-    background-color: $color-grey-light-2;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.2s;
+    height: 100%;
+  }
+
+  .photo-3 {
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    border-radius: none;
+    position: absolute;
+    left: 35%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
     transition: transform 0.2s;
@@ -55,8 +77,8 @@
     left: -100%;
     margin: auto;
     transition: left 0.2s;
-    background: rgba($color-black, 0.6);
-    color: $color-white;
+    background: rgba($color-white, 0.6);
+    color: $color-black;
     padding: 10px;
     width: 100%;
     font-size: 0.9rem;
@@ -84,18 +106,51 @@
     margin-top: 1rem;
   }
 
-  @media screen and (min-width: 40rem) {
+  @media screen and (min-width: 61.9375rem) {
     flex-direction: row;
     max-width: 75%;
     .row-div {
-      flex-basis: 40%;
+      width: 20rem;
       height: auto;
     }
     .description {
-      flex-basis: 60%;
+      width: 80%;
     }
     &.alt {
       flex-direction: row-reverse;
+    }
+
+    .photo-1 {
+      position: absolute;
+      right: 0;
+      left: 0.5rem;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-position: center top;
+      transition: transform 0.2s;
+      height: 100%;
+    }
+
+    .photo-2 {
+      position: absolute;
+      right: 1rem;
+      left: 0;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: transform 0.2s;
+      height: 100%;
+    }
+
+    .photo-3 {
+      position: absolute;
+      right: 0;
+      left: 0.5rem;
+      background-size: 80%;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: transform 0.2s;
+      height: 100%;
     }
   }
 }
