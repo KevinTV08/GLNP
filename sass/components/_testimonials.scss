@@ -25,7 +25,6 @@
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -40,7 +39,6 @@
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,7 +53,6 @@
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,33 +121,73 @@
       position: absolute;
       right: 0;
       left: 0.5rem;
-      background-size: 80%;
-      background-repeat: no-repeat;
-      background-position: center top;
-      transition: transform 0.2s;
-      height: 100%;
     }
 
     .photo-2 {
       position: absolute;
       right: 1rem;
       left: 0;
-      background-size: 80%;
-      background-repeat: no-repeat;
-      background-position: center;
-      transition: transform 0.2s;
-      height: 100%;
     }
 
     .photo-3 {
       position: absolute;
       right: 0;
       left: 0.5rem;
-      background-size: 80%;
-      background-repeat: no-repeat;
-      background-position: center;
-      transition: transform 0.2s;
-      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 61.9374rem) {
+    .photo-1 {
+      position: absolute;
+      left: 35%;
+    }
+
+    .photo-2 {
+      position: absolute;
+      left: 35%;
+    }
+
+    .photo-3 {
+      position: absolute;
+      left: 35%;
+    }
+  }
+
+  @media screen and (max-width: 40rem) {
+    .photo-1 {
+      position: absolute;
+      left: 30%;
+    }
+
+    .photo-2 {
+      position: absolute;
+      left: 30%;
+    }
+
+    .photo-3 {
+      position: absolute;
+      left: 30%;
+    }
+
+    .testimonial-card {
+      line-height: 1;
+    }
+  }
+
+  @media screen and (max-width: 30rem) {
+    .photo-1 {
+      position: absolute;
+      left: 15%;
+    }
+
+    .photo-2 {
+      position: absolute;
+      left: 15%;
+    }
+
+    .photo-3 {
+      position: absolute;
+      left: 15%;
     }
   }
 }

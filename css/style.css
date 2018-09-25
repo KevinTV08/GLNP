@@ -600,7 +600,6 @@ h1 {
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -613,7 +612,6 @@ h1 {
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -626,7 +624,6 @@ h1 {
     shape-outside: circle(50% at 50% 50%);
     border-radius: none;
     position: absolute;
-    left: 35%;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -676,30 +673,47 @@ h1 {
       .testimonial-card .photo-1 {
         position: absolute;
         right: 0;
-        left: 0.5rem;
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center top;
-        transition: transform 0.2s;
-        height: 100%; }
+        left: 0.5rem; }
       .testimonial-card .photo-2 {
         position: absolute;
         right: 1rem;
-        left: 0;
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 0.2s;
-        height: 100%; }
+        left: 0; }
       .testimonial-card .photo-3 {
         position: absolute;
         right: 0;
-        left: 0.5rem;
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        transition: transform 0.2s;
-        height: 100%; } }
+        left: 0.5rem; } }
+  @media screen and (max-width: 61.9374rem) {
+    .testimonial-card .photo-1 {
+      position: absolute;
+      left: 35%; }
+    .testimonial-card .photo-2 {
+      position: absolute;
+      left: 35%; }
+    .testimonial-card .photo-3 {
+      position: absolute;
+      left: 35%; } }
+  @media screen and (max-width: 40rem) {
+    .testimonial-card .photo-1 {
+      position: absolute;
+      left: 30%; }
+    .testimonial-card .photo-2 {
+      position: absolute;
+      left: 30%; }
+    .testimonial-card .photo-3 {
+      position: absolute;
+      left: 30%; }
+    .testimonial-card .testimonial-card {
+      line-height: 1; } }
+  @media screen and (max-width: 30rem) {
+    .testimonial-card .photo-1 {
+      position: absolute;
+      left: 15%; }
+    .testimonial-card .photo-2 {
+      position: absolute;
+      left: 15%; }
+    .testimonial-card .photo-3 {
+      position: absolute;
+      left: 15%; } }
 
 footer {
   background-color: #000;
