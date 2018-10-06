@@ -1,8 +1,9 @@
 ## Great Leaf National Park
 
-![screenshot](img/screenshot.png)
+![screenshot](img/screenshot.jpg)
 
-An tourism website for madeup national park
+A tourism website mockup for a madeup national park
+
 ## Built With
 
 - HTML5
