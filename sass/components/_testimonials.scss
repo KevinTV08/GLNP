@@ -85,6 +85,17 @@
     ul li {
       display: inline-block;
     }
+    .visitor:before {
+      font-family: FontAwesome;
+      margin-right: 10px;
+      content: '\f007';
+    }
+
+    .date:before {
+      font-family: FontAwesome;
+      margin-right: 10px;
+      content: '\f133';
+    }
   }
   .description {
     padding: 1rem;

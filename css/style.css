@@ -144,14 +144,10 @@ body {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
-.btn:active,
-.btn:focus {
-  outline: none;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-
 .btn:hover {
-  background: #fff;
-  color: #777; }
+  background: #273c75;
+  color: #fff;
+  border: 1px solid #273c75; }
 
 .btn-text:link,
 .btn-text:visited {
@@ -650,6 +646,14 @@ h1 {
       text-decoration: dotted underline; }
     .testimonial-card .details ul li {
       display: inline-block; }
+    .testimonial-card .details .visitor:before {
+      font-family: FontAwesome;
+      margin-right: 10px;
+      content: '\f007'; }
+    .testimonial-card .details .date:before {
+      font-family: FontAwesome;
+      margin-right: 10px;
+      content: '\f133'; }
   .testimonial-card .description {
     padding: 1rem;
     background: #fff;
@@ -716,7 +720,7 @@ h1 {
       left: 15%; } }
 
 footer {
-  background-color: #000;
+  background: #273c75;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -815,6 +819,7 @@ footer {
 .product-overview {
   background-image: linear-gradient(to right bottom, rgba(145, 156, 218, 0.8), rgba(56, 33, 92, 0.2)), url("../img/yosemite-md.jpg");
   background-position: left 10% bottom 28%;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 90.1vh;
@@ -842,7 +847,7 @@ div:first-child h1 {
   position: fixed;
   width: 100%;
   justify-content: space-between;
-  background-color: #000;
+  background: #273c75;
   z-index: 1000;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08); }
 
@@ -887,7 +892,7 @@ div:first-child h1 {
     text-decoration: none;
     padding: 1rem 1rem;
     display: block;
-    background: #000;
+    background: #273c75;
     color: #fff;
     text-transform: uppercase;
     font-size: 0.688rem; }
@@ -905,7 +910,7 @@ div:first-child h1 {
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
-    background: #000;
+    background: #273c75;
     z-index: 1000;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.08); }
   .main-nav__items {
@@ -941,7 +946,7 @@ div:first-child h1 {
 
 @media only screen and (min-width: 49.4525rem) {
   .submenu {
-    background: #000;
+    background: #273c75;
     display: flex;
     flex-direction: column;
     position: absolute;
