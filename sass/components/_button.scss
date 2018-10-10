@@ -1,31 +1,42 @@
-.btn,
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0.5rem $default-font-size;
-  display: inline-block;
-  border-radius: 10rem;
-  transition: all 0.2s;
-  position: relative;
-  font-size: $default-font-size;
-  cursor: pointer;
-  color: $color-white;
-  border: 1px solid $color-white;
-  transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
+.btn {
+  &,
+  &:link,
+  &:visited,
+  &-card,
+  &-card:link,
+  &-card:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem $default-font-size;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative;
+    font-size: $default-font-size;
+    cursor: pointer;
+    color: $color-white;
+    border: 1px solid $color-white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
 
-.btn:active,
-.btn:focus {
-  outline: none;
-  transform: translateY(-1px);
-  box-shadow: 0 0.5rem $default-font-size rgba($color-black, 0.2);
-}
+  &:active,
+  &:focus {
+    outline: none;
+    transform: translateY(-1px);
+    box-shadow: 0 0.5rem $default-font-size rgba($color-black, 0.2);
+  }
 
-.btn:hover {
-  background: #273c75;
-  color: $color-white;
-  border: 1px solid #273c75;
+  &:hover {
+    background: #273c75;
+    color: $color-white;
+    border: 1px solid #273c75;
+  }
+
+  &-card:hover {
+    background: $color-white;
+    color: $color-grey-dark;
+    border: 1px solid $color-white;
+  }
 }
 
 .btn-text:link,

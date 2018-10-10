@@ -122,9 +122,7 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 2rem; } }
 
-.btn,
-.btn:link,
-.btn:visited {
+.btn, .btn:link, .btn:visited, .btn-card, .btn-card:link, .btn-card:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem 1rem;
@@ -138,8 +136,7 @@ body {
   border: 1px solid #fff;
   transition: background-color 0.2s, border 0.2s, color 0.2s; }
 
-.btn:active,
-.btn:focus {
+.btn:active, .btn:focus {
   outline: none;
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
@@ -148,6 +145,11 @@ body {
   background: #273c75;
   color: #fff;
   border: 1px solid #273c75; }
+
+.btn-card:hover {
+  background: #fff;
+  color: #777;
+  border: 1px solid #fff; }
 
 .btn-text:link,
 .btn-text:visited {
