@@ -20,18 +20,18 @@ let toggleNav = function() {
   }
 };
 
-let toggleMobileNav = function() {
-  let getShopBtn = document.querySelector('.dropdown-btn');
-  let getDropDownItems = document.querySelector('.dropdown-items');
-  let getDropDownItem = document.querySelectorAll('.dropdown-item a');
+// let toggleMobileNav = function() {
+//   let getShopBtn = document.querySelector('.dropdown-btn');
+//   let getDropDownItems = document.querySelector('.dropdown-items');
+//   let getDropDownItem = document.querySelectorAll('.dropdown-item a');
 
-  if (toggleNavStatus === false) {
-    getDropDownItems.style.display = 'block';
+//   if (toggleNavStatus === false) {
+//     getDropDownItems.style.display = 'block';
 
-    toggleNavStatus = true;
-  } else if (toggleNavStatus === true) {
-    getDropDownItems.style.display = 'none';
+//     toggleNavStatus = true;
+//   } else if (toggleNavStatus === true) {
+//     getDropDownItems.style.display = 'none';
 
-    toggleNavStatus = false;
-  }
-};
+//     toggleNavStatus = false;
+//   }
+// };
